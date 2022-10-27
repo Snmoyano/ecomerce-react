@@ -1,0 +1,10 @@
+.container__similar-products {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.similar__product-title {
+  color: var(--bg-color-red);
+}

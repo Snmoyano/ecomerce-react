@@ -1,0 +1,24 @@
+.container__product-id {
+  display: flex;
+  flex-wrap: wrap;
+}
+.history {
+  display: flex;
+  align-items: center;
+
+  margin-top: 60px;
+}
+.history__separator {
+  background-color: var(--bg-color-red);
+  border-radius: 50%;
+  width: 6px;
+  height: 6px;
+  margin: 0 14px;
+}
+.history__link {
+  text-decoration: none;
+}
+
+.history__separator-title {
+  font-weight: bold;
+}

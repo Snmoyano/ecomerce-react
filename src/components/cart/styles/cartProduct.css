@@ -1,0 +1,7 @@
+.cart-p__icon {
+  font-size: 20px;
+  color: white;
+}
+.cart-p__btn {
+  background-color: var(--bg-color-red);
+}

@@ -1,0 +1,25 @@
+.purchases {
+  margin-top: 60px;
+  width: 90%;
+  margin: auto;
+}
+.history {
+  display: flex;
+  align-items: center;
+
+  margin-top: 60px;
+}
+.history__separator {
+  background-color: var(--bg-color-red);
+  border-radius: 50%;
+  width: 6px;
+  height: 6px;
+  margin: 0 14px;
+}
+.history__link {
+  color: var(--bh-color-grey);
+  text-decoration: none;
+}
+.history__separator-title {
+  font-weight: bold;
+}

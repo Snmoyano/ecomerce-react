@@ -1,0 +1,26 @@
+.input__search {
+  margin-top: 100px;
+  width: 80%;
+  font-size: 1rem;
+  outline: none;
+  padding: 5px;
+  border: 1px solid #dcd9d9;
+  flex: 1 1;
+  text-align: center;
+  padding: 15px 14px;
+}
+
+@media (min-width: 600px) {
+  .input__search {
+    margin-top: 100px;
+    width: 70%;
+    font-size: 1rem;
+    outline: none;
+    padding: 5px;
+    border: 1px solid #dcd9d9;
+    flex: 1 1;
+    margin: 0 auto;
+    padding: 15px 14px;
+    text-align: left;
+  }
+}
