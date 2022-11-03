@@ -1,3 +1,12 @@
 .cart {
+  margin-left: 10px;
   margin-top: 60px;
+  height: 100vh;
+}
+.btn__buy {
+  background-color: var(--bg-color-red);
+  padding: 10px;
+  font-size: 30px;
+  color: white;
+  border-radius: 5px;
 }

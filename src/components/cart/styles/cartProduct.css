@@ -1,7 +1,17 @@
+.container__quantity {
+  display: flex;
+  gap: 10px;
+}
+.container__quantity-num {
+  border: 1px solid var(--bh-color-grey);
+  padding: 0 20px;
+}
 .cart-p__icon {
   font-size: 20px;
   color: white;
 }
 .cart-p__btn {
   background-color: var(--bg-color-red);
+  border-radius: 5px;
+  padding: 5px;
 }

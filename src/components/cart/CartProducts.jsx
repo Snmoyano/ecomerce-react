@@ -23,12 +23,14 @@ const CartProducts = ({ product }) => {
       <h2>{product.title}</h2>
       <ul>
         <li>
-          <span>Price</span>
+          <span>Price $</span>
           {product.price}
         </li>
-        <li>
+        <li className="container__quantity">
           <span>Quantity</span>
-          {product.productsInCart.quantity}
+          <span className="container__quantity-num">
+            {product.productsInCart.quantity}
+          </span>
         </li>
       </ul>
       <button onClick={handleDelete} className="cart-p__btn">

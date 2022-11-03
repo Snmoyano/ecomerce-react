@@ -49,7 +49,7 @@ const Cart = () => {
         ))}
       </div>
       <h2>Total:${total}</h2>
-      <button onClick={handlePurchase} style={{ fontSize: "30px" }}>
+      <button onClick={handlePurchase} className="btn__buy">
         Buy Now
       </button>
     </div>
